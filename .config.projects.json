@@ -1,0 +1,11 @@
+{
+    "projects": {
+        "testrepo": {
+            "rootPath": ""
+        },
+        "asd": {
+            "credentialSecret": false
+        }
+    },
+    "activeProject": "asd"
+}

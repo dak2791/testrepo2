@@ -1,0 +1,11 @@
+version: "3"
+services:
+  execution:
+    image: nodered/node-red
+    container_name: deleteme-execution-node-red
+    volumes:
+      - ${NODE_RED_VOLUME_PATH}:/data
+    ports:
+      - "1881:1880"
+    environment:
+      - NODE_RED_ENABLE_PROJECTS=true

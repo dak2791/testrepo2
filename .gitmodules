@@ -1,0 +1,3 @@
+[submodule "projects/testrepo"]
+	path = projects/testrepo
+	url = https://github.com/dak2791/testrepo.git
